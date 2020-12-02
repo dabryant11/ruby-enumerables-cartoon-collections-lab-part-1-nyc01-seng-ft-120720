@@ -8,5 +8,5 @@ end
 
 def list_dwarves(array)
   array.each_with_index {|array, index |
-  p "#{index}. #{array}"}
+  p "#{index +1}. #{array}"}
 end
